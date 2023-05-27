@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/reg.css">
+	<link rel="stylesheet" href="css/input-anim.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/choices.js@9.0.1/public/assets/styles/choices.min.css" />
+	<link rel="stylesheet" href="css/fonts.css">
+	<title>AGU</title>
+</head>
+
+<body>
+	<main>
+		<form action="#">
+			<h1 class="form__title" style="margin-bottom: 6px;">Добро пожаловать! 👋</h1>
+			<p class="form__subtitle">Пожалуйста, войдите в свою учетную запись или зарегистрируйтесь </p>
+			<div class="form-item">
+				<label for="" class="form-item__title">Email</label>
+				<div class="form-item__input">
+					<input type="email" placeholder="Введите Email">
+					<span class="focus-input-1"></span>
+					<span class="focus-input-2"></span>
+				</div>
+				<div class="form-item__error">
+					<p>Ошибка</p>
+				</div>
+			</div>
+			<div class="form-item">
+				<label for="" class="form-item__title">Password</label>
+				<div class="form-item__input">
+					<input type="password" placeholder="Введите пароль">
+					<span class="focus-input-1"></span>
+					<span class="focus-input-2"></span>
+				</div>
+				<div class="form-item__error">
+					<p>Ошибка</p>
+				</div>
+			</div>
+			<div class="form-item" style="display:flex; align-items:center; margin-bottom: 15px; gap:6px">
+				<input type="checkbox" name="" id="">
+				<label for="" class="form-item__title" style="margin-bottom: 0;">Запомнить меня</label>
+			</div>
+			<button class="blue-btn form-item__btn">Войти</button>
+			<div class="form__footer">
+				<a href="/">Зарегестрироваться</a>
+			</div>
+		</form>
+		<!-- <button onclick="test()">test</button> -->
+	</main>
+	<script src="https://cdn.jsdelivr.net/npm/choices.js@9.0.1/public/assets/scripts/choices.min.js"></script>
+	<script src="./js/regAnim.js"></script>
+	<script>
+		const choices = new Choices('.js-choice', {
+			searchEnabled: false,
+			itemSelectText: '',
+		})
+	</script>
+</body>
+
+</html>
