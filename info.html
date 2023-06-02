@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/info.css">
+	<!-- <link rel="stylesheet" href="css/reg.css">
+	<link rel="stylesheet" href="css/input-anim.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/choices.js@9.0.1/public/assets/styles/choices.min.css" /> -->
+	<link rel="stylesheet" href="css/fonts.css">
+	<title>AGU</title>
+</head>
+
+<body>
+	<header class="container">
+		<div class="header__left">
+			<div class="logo mob-hidden">
+				<img src="./img/logo.png" alt="">
+			</div>
+			<div class="header__title info-title mob-hidden">kaznpu</div>
+			<button class="header__excel">СКАЧАТЬ EXCEL</button>
+		</div>
+		<div class="header__right">
+			<button class="header__lang">KZ/RU</button>
+		</div>
+	</header>
+	<main class="container">
+		<div class="popup-bg" onclick="togglePopup()">
+			<div class="popup">
+				<div class="popup__wrapper">
+					<h2 class="popup__title">Бірлікбай Аяу Бауыржанқызы</h2>
+					<p class="popup__text">Вы уже прошли специальный экзамен сегодня и получили «недопуск». Вы можете
+						повторно
+						пройти экзамен через</p>
+					<p class="popup__time">17:35:02</p>
+				</div>
+			</div>
+		</div>
+		<div class="intro">
+			<div class="intro__text">
+				<p class="info-title">
+					Добро пожаловать<span><img src="./img/icons/1.svg" alt="icon"></span><br>
+					<span><img src="./img/icons/2.svg" alt="icon"></span> в университет, где
+					<span><img src="./img/icons/3.svg" alt="icon"></span> <br>
+					мечты
+					<span><img src="./img/icons/4.svg" alt="icon"></span> становятся <br>
+					<span><img src="./img/icons/5.svg" alt="icon"></span> реальностью!
+				</p>
+				<button class="blue-btn intro__btn" onclick="togglePopup()">ПРОЙТИ ТЕСТ</button>
+			</div>
+			<div class="intro__img mob-hidden">
+				<img src="./img/intro.png" alt="">
+			</div>
+		</div>
+		<div class="school">
+			<div class="school__img mob-hidden">
+				<img src="./img/school.png" alt="">
+			</div>
+			<div class="school__content">
+				<h2 class="school__title info-title">Уважаемые выпускники школы!</h2>
+				<p class="school__text info-text">Мы приветствуем вас от имени администрации и преподавательского коллектива
+					престижного педагогического вуза. Поздравляем с окончанием школьной жизни и достижениями на
+					образовательном пути.
+					Наш педагогический вуз предлагает разнообразные академические программы в области педагогики, психологии,
+					лингвистики и других областях. Наши преподаватели обладают большим опытом и знаниями, готовыми передать
+					их вам.
+					Вместе с академическим ростом вы получите возможности для личностного развития, участия в студенческих
+					клубах, научных группах и культурных мероприятиях.<br>
+					Мы также предлагаем практический опыт и связи с образовательными учреждениями для вашего
+					профессионального развития. В нашем университете мы ценим каждого студента и предоставляем индивидуальную
+					поддержку.
+					Выбор профессии педагога открывает множество возможностей. Работа педагога важна для общества,
+					обеспечивает стабильность и надежность. Кроме того, она способствует личностному росту и разнообразию
+					карьерных путей. Педагогическая профессия приносит общественное вознаграждение и благодарность.
+					Не упустите возможность получить престижное педагогическое образование и начать свой путь в мире знаний и
+					профессионального роста. Мы рады приветствовать вас и поддерживать ваши цели.
+					Ректор Билялов Дархан Нурланович</p>
+			</div>
+		</div>
+		<div class="applicants">
+			<div class="applicants__content">
+				<h2 class="applicants__title info-title">Уважаемые Абитуриенты!</h2>
+				<p class="applicants__text info-text">Если вы задаетесь определенным вопросом, почему выберите Казахский
+					национальный
+					педагогический университет имени Абая (КазНПУ им. Абая), у меня есть несколько убедительных причин:</p>
+				<ul class="applicants__text info-text">
+					<li>Престижный университет с богатым наследием в образовании и научных исследованиях.</li>
+					<li>Высокое качество образования, опирающееся на передовые методы и сильный преподавательский состав.
+					</li>
+					<li>Возможность участия в исследовательской деятельности, конференциях и публикациях.</li>
+					<li>Современные учебные ресурсы и комфортные условия для учебы и исследований.</li>
+					<li>Международное сотрудничество и возможность обмена студентами за рубежом.</li>
+					<li>Разнообразная студенческая жизнь, студенческие клубы и поддержка университета.</li>
+				</ul>
+
+				<p class="applicants__text info-text">Кроме того, университет предоставляет поддержку и консультации
+					студентам в различных аспектах их
+					академической и личностной жизни. Военная кафедра Выбрав КазНПУ им. Абая, вы получите качественное
+					образование, доступ к современным ресурсам и возможность реализовать свой потенциал в области педагогики
+					и науки. Университет готов приветствовать вас и помочь вам достичь ваших карьерных и личных целей.</p>
+			</div>
+			<div class="applicants__img mob-hidden">
+				<img src="./img/applicants.png" alt="">
+			</div>
+		</div>
+		<button class="info-btn blue-btn">ПРОЙТИ ТЕСТ</button>
+	</main>
+	<script src="./js/popup.js"></script>
+</body>
+
+</html>
